@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["fetch('https://jsonplaceholder.typicode.com/todos/1')\n  .then(response => response.json())\n  .then(json => console.log(json));\n"],"names":["response","json"],"mappings":"ssBAAA,MAAM,8CAA8C,EACjD,KAAKA,GAAYA,EAAS,MAAM,EAChC,KAAKC,GAAQ,QAAQ,IAAIA,CAAI,CAAC"}
