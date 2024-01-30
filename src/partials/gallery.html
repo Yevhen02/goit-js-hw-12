@@ -1,3 +1,18 @@
-<ul class="gallery">
-  Gallery content
-</ul>
+<div class="container">
+  <form class="gallery-form">
+    <input
+      class="search-input"
+      type="text"
+      name="search"
+      placeholder="Search images..."
+      autocomplete="off"
+    />
+    <button class="search-btn" type="submit">Search</button>
+  </form>
+
+  <span class="loader hidden"></span>
+
+  <ul class="gallery"></ul>
+
+  <button class="load-more-btn hidden">Load more</button>
+</div>
